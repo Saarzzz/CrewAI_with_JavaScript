@@ -28,11 +28,11 @@ class ResearchCrew:
 
             # Create Agents
         researcher_agent = agents.research_agent()
-        #email_specialist=agents.email_specialist()
+        email_specialist=agents.email_specialist()
 
         # Create Tasks
         research = tasks.research_task(researcher_agent, Context)
-        #email = tasks.email_strategy_task(email_specialist, Context, research)
+        email = tasks.email_strategy_task(email_specialist, Context, research)
 
         self.crew = Crew(
             agents=[
