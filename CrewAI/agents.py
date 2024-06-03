@@ -10,7 +10,7 @@ load_dotenv()
 
 genai.configure(api_key="GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-tool=WebsiteSearchTool(website='https://test.wipl.co.in/front/linkedin?id=7',
+tool=WebsiteSearchTool(website='Link of The LinkedIn Profile',
     config=dict(
         llm=dict(
             provider="google", # or google, openai, anthropic, llama2, ...
