@@ -1,7 +1,0 @@
-crewai
-google.generativeai
-dotenv
-langchain_google_genai
-os
-flask
-langchain
